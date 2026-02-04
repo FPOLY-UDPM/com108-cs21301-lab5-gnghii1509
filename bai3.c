@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [TÔN THẤT GIA NGHI]
+ * MSSV:      [PS48181]
+ * Lớp:       [CS21301]
  *****************************************************************************/
 
 //  BÀI 3: XÂY DỰNG HÀM HOÁN VỊ 
@@ -32,7 +32,7 @@ int main() {
     hoanVi(&a, &b);
     //In giá trị sau khi hoán vị của a và b
     printf("Sau hoan vi: a = %d, b = %d\n", a, b);
-     
+
     
     return 0;
 }
