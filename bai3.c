@@ -12,11 +12,27 @@
 
 #include <stdio.h>
 
-//Tạo hàm 
+//Tạo hàm hoán vị
+void hoanVi(int *a, int *b) {
+    int temp = *a; //Lưu giá trị của a vào biến tạm
+    *a = *b;       //Gán giá trị của b cho a
+    *b = temp;    //Gán giá trị tạm cho b
+}
 
 int main() {
 
-    // //Gọi hàm trong hàm main 
+    //Gọi hàm trong hàm main
+    int a, b;
+    //Nhập giá trị a và b từ bàn phím
+    printf("Nhap gia tri a va b: ");
+    scanf("%d %d", &a, &b);
+    //In giá trị ban đầu của a và b
+    printf("Truoc hoan vi: a = %d, b = %d\n", a, b);
+    //Gọi hàm hoán vị
+    hoanVi(&a, &b);
+    //In giá trị sau khi hoán vị của a và b
+    printf("Sau hoan vi: a = %d, b = %d\n", a, b);
+     
     
     return 0;
 }
